@@ -13,6 +13,7 @@ const initRequest = () => ({
   type: "INIT_REQUEST"
 });
 
+// Renderless component
 class Geoloc extends React.Component {
   refresh() {
     if (navigator.geolocation) {
